@@ -1,0 +1,151 @@
+
+<!-- saved from url=(0068)file:///C:/Users/huykh/OneDrive/M%C3%A1y%20t%C3%ADnh/hinh/index.html -->
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="zh-CN">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="robots" content="all">
+<meta name="save" content="history">
+<meta name="Copyright" content="51qianduan">
+<title>Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo</title>
+<meta name="keywords" content="图片散乱无序演示,排列样式演示">
+<meta name="description" content="效果演示：jQuery图片散乱无序排列样式特效代码下载演示以及提供图片散乱无序演示、排列样式演示等js/jquery网页特效代码演示和下载。">
+<script>
+var siteUrl = "https://www.51qianduan.com/";//网站网址
+var siteUserid = 0; //网站用户ID
+var siteUsername = ""; //网站用户名
+var siteUserface = ""; //网站用户头像
+if(siteUserface == ""){
+siteUserface = siteUrl+"public/images/user_normal.jpg";
+}else{
+siteUserface = "";
+}
+</script>
+<script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/jquery.min.js.tải xuống" type="text/javascript"></script>
+<script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/jquery.js.tải xuống" type="text/javascript"></script>
+<!--[if IE]>
+<style type="text/css">
+	li.remove_frame a {
+		padding-top: 5px;
+		background-position: 0px -3px;
+	}
+</style>
+<![endif]-->
+<script type="text/javascript">
+$(document).ready(function () {
+	function fixHeight() {
+		var headerHeight = $("#switcher").height();
+		if($(window).width() < 870){//判断页面宽度，手机版的时候则全部内容
+			$("#iframe").attr("height", $(window).height()+ "px");
+			//$("#by").attr("style", "height:"+$(window).height()+ "px");
+		}else{
+			$("#iframe").attr("height", $(window).height()-54+ "px");
+		}
+	}
+	$(window).resize(function () {
+		fixHeight();
+	}).resize();
+
+	$('.icon-pc').addClass('active');
+
+	$(".icon-mobile").click(function () {
+		$("#by").css("overflow-y", "auto");
+		$('#iframe-wrap').removeClass().addClass('mobile-width');
+		$('.icon-ipad,.icon-pc,.icon-mobile').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	});
+
+
+	$(".icon-ipad").click(function () {
+		$("#by").css("overflow-y", "auto");
+		$('#iframe-wrap').removeClass().addClass('ipad-width');
+		$('.icon-ipad,.icon-pc,.icon-mobile').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	});
+
+	$(".icon-pc").click(function () {
+		$("#by").css("overflow-y", "hidden");
+		$('#iframe-wrap').removeClass().addClass('full-width');
+		$('.icon-ipad,.icon-pc,.icon-mobile').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	});
+});
+</script>
+<script type="text/javascript">
+function Responsive() {
+	if ( == true) $("#equipment").css("opacity", "100");
+	if ( == false) $("#equipment").css("opacity", "0");
+	$('#iframe-wrap').removeClass().addClass('full-width');
+	$('.icon-ipad,.icon-pc,.icon-mobile').removeClass('active');
+	$(this).addClass('active');
+	return false;
+};
+</script>
+<style>
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:0.5}
+ol, ul{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after, q:before, q:after{content:'';content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none;color:#fff}
+body{font-family:"Kreon";font-weight:300;color:#444;background:#fff;}
+#switcher{height:54px;z-index:99999;position:fixed;width:100%;top:0;background:#444;}
+.center{width:100%;padding-top:0}
+.center ul li{float:left;position:relative}
+.top3,.top2{margin-left:30px; line-height:52px;color:#fff;font-family:"微软雅黑"}
+.top2{position:relative;margin-top:15px;font-size:12px;font-weight:normal;background-image:url(/app/article/images/view-erweima.png);background-repeat:no-repeat;background-position:3px center;height:22px;padding-left:25px;line-height:22px;border:1px solid #bbb;padding-right:5px;border-radius:3px;}
+.top2 .vm p{color:#808080;margin:7px 0 0 0; text-align:center;}
+.vm{position:absolute;top:22px;left:-1px;background-color:#fff;height:170px;width:150px;display:none;padding:30px;}
+.top2:hover .vm{display:block}
+.top3 a:hover{text-decoration:none;}
+li.top4 a,li.top5 a,li.top6 a{ font-size:13px;}
+li.top4{float:right!important;margin-right:30px; line-height:52px;}
+li.top4 a{ color:#f8bc06;}
+li.top5{float:right!important; margin-left:12px; margin-right:12px; color:#FFF; font-size:13px; line-height:52px;}
+li.top6{float:right!important; line-height:52px;color: #fff;font-size: 14px;}
+#iframe{margin-top:0}
+.icon-pc{margin-right:18px;margin-top:20px;width:17px;height:16px;background:url(/app/article/images/view-equipment-min.png) no-repeat;margin-left:10px;background-position:0 0;}
+.icon-ipad{margin-right:15px;margin-top:20px;width:17px;height:16px;background:url(/app/article/images/view-equipment-min.png) no-repeat;background-position:-24px 0}
+.icon-mobile{margin-right:15px;margin-top:20px;width:17px;height:16px;background:url(/app/article/images/view-equipment-min.png) no-repeat;background-position:-71px 0}
+.icon-pc:hover, .icon-pc.active{background-position:0 -16px}
+.icon-ipad:hover, .icon-ipad.active{background-position:-24px -16px}
+.icon-mobile:hover, .icon-mobile.active{background-position:-71px -16px}
+#iframe-wrap{height:100%;overflow:hidden;position:relative;top:54px;z-index:50}
+.ipad-width{height:960px!important;margin: 40px auto 90px;padding:175px 100px 114px 100px;width:785px;background:url(/app/article/images/view-equipment-max.png) no-repeat 0 0}
+.ipad-width iframe{height:960px!important}
+.mobile-width{height:417px!important;margin: 40px auto 90px;padding:125px 25px 159px 25px;width:337px;background:url(/app/article/images/view-equipment-max.png) no-repeat 0 -2217px}
+.mobile-width iframe{height:416px!important}
+#by{overflow-y:hidden}
+
+@media screen and (max-width:870px) {
+#switcher{display:none;}
+#iframe-wrap{top:0; bottom:0;}
+/*#equipment{ display:none;}
+.top2,.top4,.top5,.top6{ display:none;}	
+.top3{ margin-left:10px; margin-right:10px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.center ul li{float:none;}*/
+/*小于640屏幕*/
+}
+</style>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/translateelement.css"></head>
+<body id="by" style="">
+
+
+
+
+<div id="iframe-wrap">
+<iframe id="iframe" src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/index.html" frameborder="0" height="652px" width="100%"></iframe>
+</div>
+<script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/extend.func.js.tải xuống" type="text/javascript"></script>
+<div style="display:none;"><script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/z_stat.php" language="JavaScript"></script><script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1273541249" target="_blank" title="站长统计">站长统计</a><script src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1273541249" target="_blank" title="站长统计">站长统计</a><a href="https://www.cnzz.com/stat/website.php?web_id=1273541249" target="_blank" title="Thống kê trang web"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thống kê trang web</font></font></a></div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Hình ảnh jQuery phân tán và sắp xếp lộn xộn kiểu hiệu ứng đặc biệt tải xuống bản demo_files/translate_24dp.png" width="20" height="20" alt="Google Dịch"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Văn bản gốc</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Đóng góp bản dịch hay hơn</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
